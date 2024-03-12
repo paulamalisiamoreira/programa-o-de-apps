@@ -1,0 +1,45 @@
+*{
+margin: 5px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100%;
+}
+
+.Paula {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+
+img{
+    width: 500px;
+}
+
+h1{
+ color: red;
+}
+
+a{
+    text-align: center;
+    color: red;
+    font-size: 10px;
+
+}
+
+.Botoes a{
+
+    align-items: center;
+    height: 100%;
+    color: black;
+    font-size: 20px;
+    
+}
