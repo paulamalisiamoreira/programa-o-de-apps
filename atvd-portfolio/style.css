@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'Arial';
+}
+
+#initial{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 340px;
+    background: 
+        linear-gradient(
+        rgba(39, 39, 39, 0.5),rgba(39, 39, 39, 0.5)
+        ),
+        url('./img/capa\ portólio.png') ;
+    background-position: 0;
+    color: white;
+}
+
+nav{
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    box-sizing: border-box;
+}
+
+#links-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.down-arrow{
+    color: rgb(196, 69, 69);
+}
+
+p{
+    margin: 0;
+}
+
+#nome-nav p{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.nav-2{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-2 p{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.grey-ball{
+    background-color: rgb(92, 92, 92);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.h1-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links{
+    display: flex;
+    gap: 10px;
+}
+
+#about-me{
+    padding-top: 100px;
+    font-family: "Inter";
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    gap: 30px;
+    height: 100vh;
+}
+
+#about-me h2{
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.paragraph{
+    text-indent: 20px;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    text-align: justify;
+}
+
+.texts{
+    height: fit-content;
+}
+
+#paula{
+    margin: auto;
+    width: auto;
+    height: 763px;
+    margin-top: 0;
+}
